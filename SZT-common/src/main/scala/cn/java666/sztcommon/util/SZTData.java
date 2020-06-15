@@ -1,4 +1,4 @@
-package cn.java666.etlspringboot.source;
+package cn.java666.sztcommon.util;
 
 import cn.hutool.core.io.FileUtil;
 import cn.hutool.http.HttpUtil;
@@ -16,7 +16,7 @@ import org.junit.Test;
  * 所以这里的 jsons 默认每行存一个完整 json 对象文本。我已经踩过坑了
  */
 public class SZTData {
-	String SAVE_PATH = "/tmp/SZTData/2018record.jsons";
+	String SAVE_PATH = "/tmp/szt-data/szt-data-page.jsons";
 	
 	//TODO appKey 自己申请 https://opendata.sz.gov.cn/data/api/toApiDetails/29200_00403601
 	String appKey = "xxx";
